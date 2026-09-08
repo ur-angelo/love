@@ -1,6 +1,5 @@
 Clear-Host
-Write-Host "do you love me? " -ForegroundColor Red -NoNewline
-$answer = Read-Host
+$answer = Read-Host "do you love me?"
 
 if ($answer.ToLower() -eq "yes") {
     Write-Host "Me too" -ForegroundColor Green
